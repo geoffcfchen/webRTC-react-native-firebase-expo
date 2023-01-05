@@ -1,4 +1,4 @@
-# WebRTC Example
+# WebRTC react native app with firebase V9 Example
 
 ![Supports iOS](https://img.shields.io/badge/iOS-000.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff)
 ![Supports Android](https://img.shields.io/badge/Android-000.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)
@@ -8,7 +8,8 @@ Use `react-native-webrtc` in a custom [Expo Dev Client](https://docs.expo.dev/cl
 ## 🚀 How to use
 
 ```sh
-npx create-react-native-app -t with-webrtc
+clone the code to your desired directory
+update your firebase configuration. 
 ```
 
 ## ☁️ Build in the cloud
