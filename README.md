@@ -4,13 +4,12 @@
 ![Supports Android](https://img.shields.io/badge/Android-000.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)
 
 Use `react-native-webrtc` in a custom [Expo Dev Client](https://docs.expo.dev/clients/introduction/) (not available in Expo Go).
+This is modified react native example based on the great tutorial https://github.com/fireship-io/webrtc-firebase-demo.
 
 ## 🚀 How to use
 
-```sh
-clone the code to your desired directory
-update your firebase configuration. 
-```
+1. clone the code to your desired directory.
+2. update your firebase configuration. 
 
 ## ☁️ Build in the cloud
 
