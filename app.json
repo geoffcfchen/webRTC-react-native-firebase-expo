@@ -2,6 +2,17 @@
   "expo": {
     "plugins": [
       "@config-plugins/react-native-webrtc"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5514eebf-06ca-4cbd-ac18-3434fda3f724"
+      }
+    },
+    "android": {
+      "package": "com.gcfchen.webrtcdemo2"
+    },
+    "ios": {
+      "bundleIdentifier": "com.gcfchen.webrtcdemo2"
+    }
   }
 }
