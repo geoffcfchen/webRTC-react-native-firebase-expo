@@ -295,14 +295,6 @@ function App() {
     );
   }
 
-  const stop = () => {
-    console.log("stop");
-    if (localStream) {
-      localStream.release();
-      setLocalStream(null);
-    }
-  };
-
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" />
@@ -313,15 +305,6 @@ function App() {
           onPress={create}
         ></AppButton>
       </View>
-      {/* <View style={{ flex: 1 }}>
-        {localStream && (
-          <RTCView streamURL={localStream.toURL()} style={{ flex: 1 }} />
-        )}
-      </View>
-      <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
-        <Button title="Start" onPress={start} />
-        <Button title="Stop" onPress={stop} />
-      </View> */}
     </SafeAreaView>
   );
 }
