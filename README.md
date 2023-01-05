@@ -9,8 +9,8 @@ This is a modified react native example based on the great tutorial https://gith
 
 ## 🚀 How to use
 
-1. clone the code to your desired directory.
-2. update your firebase configuration. 
+1. Clone the code to your desired directory.
+2. Update your firebase configuration. 
 
 ## ☁️ Build in the cloud
 
