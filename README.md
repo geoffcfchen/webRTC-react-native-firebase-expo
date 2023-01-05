@@ -5,7 +5,7 @@
 
 Use `react-native-webrtc` in a custom [Expo Dev Client](https://docs.expo.dev/clients/introduction/) (not available in Expo Go).
 
-This is a modified react native example based on the great tutorial https://github.com/fireship-io/webrtc-firebase-demo.
+This is a modified react native example based on the great tutorial https://github.com/expo/examples/tree/master/with-webrtc
 
 ## 🚀 How to use
 
