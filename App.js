@@ -84,9 +84,9 @@ function App() {
   }, []);
 
   async function setupWebrtc() {
-    // Get the audio and video stream for the call
-
     pc.current = new RTCPeerConnection(peerConstraints);
+
+    // Get the audio and video stream for the call
     const stream = await getStream();
 
     if (stream) {
